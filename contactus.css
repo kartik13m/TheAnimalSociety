@@ -1,0 +1,41 @@
+.writetous{
+    margin: 15px;
+    float: left;
+    width: 55vw;
+    height: 60vh;
+    background: lightgrey;
+    border-radius: 10px;
+    padding:5px;
+
+}
+.info{
+    margin:15px;
+    float:right;
+    width:38vw;
+    height: 60vh;
+    background: darkblue;
+    border-radius: 10px;
+    color: white;
+}
+.information{
+    text-align: center;
+}
+.continfo{
+    font-size: 2.5em;
+   font-weight: bolder;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.location,.call,.email{
+    font-size: 1.5em;
+}
+body {
+    background: #212529;
+}  
+a:hover{
+    background: rgba(41, 107, 168, 0.6);
+    border-radius: 5px;
+    color: white;
+}

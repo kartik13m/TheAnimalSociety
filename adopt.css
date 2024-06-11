@@ -1,0 +1,57 @@
+.navbar {
+  position: fixed;
+  width: 100vw;
+}
+.space {
+  height: 100px;
+}
+.navbar-brand {
+  font-family: cursive;
+}
+body {
+    background: #212529;
+}  
+.cont *{
+    float: left;
+    color:white;
+    font-size: 3em;   
+}
+a{
+    
+    text-decoration: none;
+} 
+.grid {
+  float: left;
+}
+.pet{
+    float: left;
+    border-radius: 15px;
+    background-size: contain;
+    margin: 15px;
+}
+.one,.two,.three,.six,.nine{
+  width: 30vw;
+  height: 80vh;
+} 
+.seven,.eight{
+    width: 62vw;
+    height: 80vh;
+}
+.four,.five{
+    width: 46vw;
+    height: 60vh;
+}
+.one{ background: url("./Pics/one.jpg"); background-size: cover;}
+.two{ background: url("./Pics/two.jpg");background-size: cover;}
+.three{ background: url("./Pics/three.jpg");background-size: cover;}
+.four{ background: url("./Pics/four.jpg");background-size: cover;}
+.five{ background: url("./Pics/five.jpg");background-size: cover;} 
+.six{ background: url("./Pics/six.jpg");background-size: cover;} 
+.seven{ background: url("./Pics/seven.jpg");background-size: cover;}
+.eight{ background: url("./Pics/eight.jpg");background-size: cover;}
+.nine{ background: url("./Pics/nine.jpg");background-size: cover;}
+a:hover{
+    background: rgba(41, 107, 168, 0.6);
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    position: fixed;
+    width: 99vw;
+}
+.space{
+    height: 60px;
+}
+.twodogs{
+    background: url("./Pics/twodogs.jpg");
+    background-size: contain;
+    /* width: 1263px;
+    height: 100px; */
+    width: 100vw;
+    height: 185vh;
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+    background-attachment: fixed; 
+    font-size: 4em;
+    font-family: 'Courgette', cursive;;
+}
+.navbar-brand{
+    font-family: cursive;
+}
+a:hover{
+    background: rgba(41, 107, 168, 0.6);
+    border-radius: 5px;
+    color: white;
+}

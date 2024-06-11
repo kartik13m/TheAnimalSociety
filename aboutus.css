@@ -1,0 +1,64 @@
+.navbar {
+  position: fixed;
+  width: 99vw;
+}
+.space {
+  height: 100px;
+}
+.navbar-brand {
+  font-family: cursive;
+}
+.profile {
+  width: 31vw;
+  height: 70vh;
+  background: lightgray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  float: left;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  position: relative;
+  top: -100px;
+  background: url("./Pics/twodogs.jpg");
+  background-size: contain;
+  width: 20vw;
+  height: 28vh;
+  border-radius: 50%;
+  z-index: 3;
+}
+.ujjwal .pic {
+  background: url("./Pics/ujjwal.jpg");
+  background-size: cover;
+}
+.rahul .pic {
+  background: url("./Pics/rahul.jpg");
+  background-size: cover;
+}
+.krushn .pic {
+  background: url("./Pics/krushn.jpg");
+  background-size: cover;
+}
+svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.icons {
+  font-size: 3em;
+  position: relative;
+  top: 100px;
+  right: 140px;
+}
+/* .nav-link:hover{
+    background: rgba(41, 107, 168, 0.6);
+    border-radius: 5px;
+    color: white;
+} */

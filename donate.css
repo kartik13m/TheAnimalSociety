@@ -1,0 +1,23 @@
+.navbar
+    {
+        position: fixed;
+        width: 100vw;
+    }
+    .space{
+       height: 100px;
+   }
+   .navbar-brand{
+       font-family: cursive;
+   }
+    
+body{
+    background: url("./Pics/birds.jpg");
+    background-size: cover;
+} 
+.form{
+    margin: 20px;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    color: white;
+}
